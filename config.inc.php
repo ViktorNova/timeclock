@@ -356,6 +356,13 @@ $city = "St. Johns, NL, Canada";
 $weather_units = "c";
 
 
+/* PHP Error Display Level. 
+   Possible options are E_ERROR, E_WARNING, E_ERROR | E_WARNING, or 0 to disable.
+   See http://www.w3schools.com/php/func_error_reporting.asp for more options */
+
+error_reporting(0);
+
+
 /* --- APP NAME, VERSION NUMBER, ETC. --- */
 
 
