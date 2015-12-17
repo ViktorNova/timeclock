@@ -2,7 +2,8 @@
 
 session_start();
 
-date_default_timezone_set('America/Los_Angeles');
+//Force the timezone on reports if it somehow differs from the rest of the application
+//date_default_timezone_set('America/Los_Angeles');
 
 $self = $_SERVER['PHP_SELF'];
 $request = $_SERVER['REQUEST_METHOD'];
